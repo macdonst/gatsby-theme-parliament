@@ -27,26 +27,33 @@ import {
 import { Flex } from '@react-spectrum/layout';
 import { View } from '@react-spectrum/view';
 
-import { Heading1, Heading2, Heading3, Heading4, Heading5, Heading6 } from './Heading';
-import { Paragraph } from './Paragraph';
-import { List } from './List';
+import {
+  DiscoverBlock,
+  Paragraph,
+  List,
+  Link,
+  Hero,
+  Heading1,
+  Heading2,
+  Heading3,
+  Heading4,
+  Heading5,
+  Heading6,
+  Footer,
+  Resources,
+  Contributors,
+  Feedback,
+  Breadcrumbs,
+  OnThisPage,
+  NextSteps,
+  NextPrev
+} from '@adobe/parliament-ui-components';
 import { Code } from './Code';
 import { InlineCode } from './InlineCode';
-import { Link } from './Link';
 import { Image } from './Image';
 
-import { Footer } from './Footer';
-import { Resources } from './Resources';
-import { Hero } from './Hero';
-import { DiscoverBlock } from './DiscoverBlock';
-import { Contributors } from './Contributors';
-import { Feedback } from './Feedback';
 import { Alert } from './Alert';
 import { GitHubActions } from './GitHubActions';
-import { Breadcrumbs } from './Breadcrumbs';
-import { OnThisPage } from './OnThisPage';
-import { NextSteps } from './NextSteps';
-import { NextPrev } from './NextPrev';
 
 const customComponents = {
   Hero,
